@@ -1,8 +1,10 @@
-//
-//  swap.cpp
-//  SwapVariablesUsingPointers
-//
-//  Created by Chatchapong Thuaypha on 10/7/24.
-//
+#include "swap.h"
 
-#include <stdio.h>
+namespace SwapFunctions {
+    // Function to swap two variables using pointers
+    void swap(int* a, int* b) {
+        int temp = *a;   // Store the value of 'a' in a 'temp' variable
+        *a = *b;        // Assign the value of 'b' to 'a'
+        *b = temp;      // Assign the value of 'temp' to b
+    }
+}

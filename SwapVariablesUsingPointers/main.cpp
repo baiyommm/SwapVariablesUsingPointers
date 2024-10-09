@@ -1,14 +1,19 @@
-//
-//  main.cpp
-//  SwapVariablesUsingPointers
-//
-//  Created by Chatchapong Thuaypha on 10/7/24.
-//
-
 #include <iostream>
+#include "swap.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+using namespace std;
+
+int main() {
+    
+    int x = 5;
+    int y = 10;
+
+    cout << x << ", " << y << endl; // Displays 5, 10
+
+    // Swap Function from namespace SwapFunction
+    SwapFunctions::swap(&x, &y);
+
+    cout << x << ", " << y << endl; // Displays 10, 5
+
     return 0;
 }

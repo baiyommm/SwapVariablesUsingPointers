@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		74BD5C1C2CB4B52C0028BF17 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 74BD5C1B2CB4B52C0028BF17 /* main.cpp */; };
+		74BD5C242CB4B5630028BF17 /* swap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 74BD5C232CB4B5630028BF17 /* swap.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		74BD5C182CB4B52C0028BF17 /* SwapVariablesUsingPointers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwapVariablesUsingPointers; sourceTree = BUILT_PRODUCTS_DIR; };
 		74BD5C1B2CB4B52C0028BF17 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		74BD5C222CB4B5490028BF17 /* swap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = swap.h; sourceTree = "<group>"; };
+		74BD5C232CB4B5630028BF17 /* swap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = swap.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				74BD5C1B2CB4B52C0028BF17 /* main.cpp */,
+				74BD5C222CB4B5490028BF17 /* swap.h */,
+				74BD5C232CB4B5630028BF17 /* swap.cpp */,
 			);
 			path = SwapVariablesUsingPointers;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74BD5C242CB4B5630028BF17 /* swap.cpp in Sources */,
 				74BD5C1C2CB4B52C0028BF17 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
